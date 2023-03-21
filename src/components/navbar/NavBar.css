@@ -1,0 +1,36 @@
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex: 0.8;
+}
+
+.logo__items {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-decoration: none;
+  color: black;
+}
+.inputBase {
+  background-color: transparent;
+  color: white;
+  width: 500px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex: 0.1;
+  margin-right: 30px;
+}

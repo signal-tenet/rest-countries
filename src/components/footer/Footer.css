@@ -1,0 +1,14 @@
+.footer {
+  margin: 0px;
+  padding: 50px;
+  width: 100%;
+  display: flex;
+  position: static;
+  bottom: 0px;
+  justify-content: center;
+}
+
+.footer p {
+  justify-self: center;
+  align-self: center;
+}

@@ -1,0 +1,4 @@
+.favItem {
+  display: grid;
+  flex-direction: 1fr;
+}
