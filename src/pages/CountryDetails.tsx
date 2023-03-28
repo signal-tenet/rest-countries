@@ -28,7 +28,7 @@ export default function CountryDetails() {
 
   useEffect(() => {
     dispatch(fetchCountryData(url));
-  }, []);
+  }, [dispatch, url]);
 
   const arrowHandler = () => {
     navigate("/countries/");
